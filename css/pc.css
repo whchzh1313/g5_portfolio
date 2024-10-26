@@ -1,13 +1,13 @@
 @charset "utf-8";
 
 /* pc_header */
-#header {}
+#header {padding: 16px 0;}
 #header.scrollTop {background: transparent;}
 #header .header_wrap {width: 1280px;margin: 0 auto;}
 #header .header_wrap #logo {font-weight: 900;font-size: 3.5rem;line-height: 1em;}
 #header .header_wrap nav {}
-#header .header_wrap nav ul {}
-#header .header_wrap nav ul li a {font-size: 1.5rem;padding: 0 8px;margin: 0 8px;align-content: center;}
+#header .header_wrap nav ul {height: 100%;}
+#header .header_wrap nav ul li a {display: block;height: 100%;font-size: 1.5rem;padding: 0 8px;margin: 0 8px;align-content: center;}
 
 /* section */
 .section {padding: 64px 0;width: 1280px;margin: 0 auto;}
@@ -17,7 +17,7 @@
 #titleSection.center_y_title {display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-orient: vertical;-moz-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-moz-box-justify-content: center;-ms-flex-pack: center;justify-content: center;}
 #titleSection .wave_text {position: relative;}
 #titleSection .wave_text .words {font-size: 6rem;color: #e9ebf7;-webkit-text-stroke: 2px #222;font-weight: 900;position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);text-transform: uppercase;line-height: 1em;}
-#titleSection .wave_text .words:nth-child(1) {color: transparent;-webkit-text-stroke: 2px #6070dd;}
+#titleSection .wave_text .words:nth-child(1) {color: transparent;-webkit-text-stroke: 2px #222222;}
 #titleSection .wave_text .words:nth-child(2) {color: #6070dd;animation: wave 2s ease-in-out infinite;}
 @keyframes wave {
     0% {clip-path: polygon(0% 38%, 10% 40%, 21% 40%, 30% 45%, 38% 51%, 45% 55%, 54% 57%, 60% 55%, 75% 57%, 85% 55%, 100% 52%, 100% 100%, 0% 100%);}
@@ -33,8 +33,8 @@
 #aboutMe .profile_wrap .flex_r {margin-left: 40px;padding-left: 20px;border-left: 1px solid #222;}
 #aboutMe .profile_wrap .flex_r .flex_box {}
 #aboutMe .profile_wrap .flex_r .flex_box h3 {font-size: 1.5rem;}
-#aboutMe .profile_wrap .flex_r .flex_box p {font-size: 1rem;font-weight: 500;align-content: end;}
-#aboutMe .profile_wrap .flex_r > p  {font-size: 1.5rem;}
+#aboutMe .profile_wrap .flex_r .flex_box p {font-size: 1rem;font-weight: 500;align-content: end;margin-left: 8px;}
+#aboutMe .profile_wrap .flex_r > p  {font-size: 1.5rem;line-height: 1.2em;}
 #aboutMe .profile_wrap .flex_r > p.font_gray {color: #999999;margin-bottom: 20px;}
 
 #skill {}
@@ -43,6 +43,20 @@
 #skill #skillWrap .skills {margin-bottom: 32px;}
 #skill #skillWrap .skills:not(:last-child) {margin-right: 80px;}
 #skill #skillWrap .skills h4 {font-size: 1.25rem;line-height: 1em;margin-bottom: 12px;}
+#skill #skillWrap .skills .web .skill_chips li:nth-child(1) {background: #F6E9DD;}
+#skill #skillWrap .skills .web .skill_chips li:nth-child(2) {background: #DDEBF6;}
+#skill #skillWrap .skills .web .skill_chips li:nth-child(3) {background: #DDDEF6;}
+#skill #skillWrap .skills .web .skill_chips li:nth-child(4) {background: #F6E9DD;}
+#skill #skillWrap .skills .web .skill_chips li:nth-child(5) {background: #E3F6DD;}
+#skill #skillWrap .skills .design .skill_chips li:nth-child(1) {background: #EFDDF6;}
+#skill #skillWrap .skills .design .skill_chips li:nth-child(2) {background: #DDEBF6;}
+#skill #skillWrap .skills .design .skill_chips li:nth-child(3) {background: #F6E9DD;}
+#skill #skillWrap .skills .tool .skill_chips li:nth-child(1) {background: #DDEBF6;}
+#skill #skillWrap .skills .tool .skill_chips li:nth-child(2) {background: #E3F6DD;}
+#skill #skillWrap .skills .version .skill_chips li:nth-child(1) {background: #F2F2F2;}
+#skill #skillWrap .skills .version .skill_chips li:nth-child(2) {background: #F6E9DD;}
+#skill #skillWrap .skills .mobile_app .skill_chips li:nth-child(1) {background: #DDEBF6;}
+#skill #skillWrap .skills .mobile_app .skill_chips li:nth-child(2) {background: #E3F6DD;}
 #skill #skillWrap .skills .skill_chips {}
 #skill #skillWrap .skills .skill_chips li.chip {background: #e9ebf7;font-size: 1rem;line-height: 40px;padding: 0 16px;margin-right: 16px;font-weight: 500;}
 

@@ -44,7 +44,7 @@ include_once(G5_PATH.'/head.php');
             <div id="skill" class="inner_section">
                 <h3>Skill</h3>
                 <div id="skillWrap" class="flex_box flex_wrap">
-                    <div class="skills">
+                    <div class="skills web">
                         <h4>Web</h4>
                         <ul class="flex_box skill_chips">
                             <li class="chip radius_100">HTML</li>
@@ -54,7 +54,7 @@ include_once(G5_PATH.'/head.php');
                             <li class="chip radius_100">Gnuboard</li>
                         </ul>
                     </div>
-                    <div class="skills">
+                    <div class="skills design">
                         <h4>Design & Prototyping</h4>
                         <ul class="flex_box skill_chips">
                             <li class="chip radius_100">Figma</li>
@@ -62,21 +62,21 @@ include_once(G5_PATH.'/head.php');
                             <li class="chip radius_100">Illustrator</li>
                         </ul>
                     </div>
-                    <div class="skills">
+                    <div class="skills tool">
                         <h4>Tool</h4>
                         <ul class="flex_box skill_chips">
                             <li class="chip radius_100">VSCode</li>
                             <li class="chip radius_100">Android Studio</li>
                         </ul>
                     </div>
-                    <div class="skills">
+                    <div class="skills version">
                         <h4>Version Control & Collaboration</h4>
                         <ul class="flex_box skill_chips">
                             <li class="chip radius_100">Notion</li>
                             <li class="chip radius_100">Slack</li>
                         </ul>
                     </div>
-                    <div class="skills">
+                    <div class="skills mobile_app">
                         <h4>MobileApp</h4>
                         <ul class="flex_box skill_chips">
                             <li class="chip radius_100">Kotlin</li>
