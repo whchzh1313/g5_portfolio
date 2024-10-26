@@ -43,20 +43,20 @@
 #skill #skillWrap .skills {margin-bottom: 32px;}
 #skill #skillWrap .skills:not(:last-child) {margin-right: 80px;}
 #skill #skillWrap .skills h4 {font-size: 1.25rem;line-height: 1em;margin-bottom: 12px;}
-#skill #skillWrap .skills .web .skill_chips li:nth-child(1) {background: #F6E9DD;}
-#skill #skillWrap .skills .web .skill_chips li:nth-child(2) {background: #DDEBF6;}
-#skill #skillWrap .skills .web .skill_chips li:nth-child(3) {background: #DDDEF6;}
-#skill #skillWrap .skills .web .skill_chips li:nth-child(4) {background: #F6E9DD;}
-#skill #skillWrap .skills .web .skill_chips li:nth-child(5) {background: #E3F6DD;}
-#skill #skillWrap .skills .design .skill_chips li:nth-child(1) {background: #EFDDF6;}
-#skill #skillWrap .skills .design .skill_chips li:nth-child(2) {background: #DDEBF6;}
-#skill #skillWrap .skills .design .skill_chips li:nth-child(3) {background: #F6E9DD;}
-#skill #skillWrap .skills .tool .skill_chips li:nth-child(1) {background: #DDEBF6;}
-#skill #skillWrap .skills .tool .skill_chips li:nth-child(2) {background: #E3F6DD;}
-#skill #skillWrap .skills .version .skill_chips li:nth-child(1) {background: #F2F2F2;}
-#skill #skillWrap .skills .version .skill_chips li:nth-child(2) {background: #F6E9DD;}
-#skill #skillWrap .skills .mobile_app .skill_chips li:nth-child(1) {background: #DDEBF6;}
-#skill #skillWrap .skills .mobile_app .skill_chips li:nth-child(2) {background: #E3F6DD;}
 #skill #skillWrap .skills .skill_chips {}
 #skill #skillWrap .skills .skill_chips li.chip {background: #e9ebf7;font-size: 1rem;line-height: 40px;padding: 0 16px;margin-right: 16px;font-weight: 500;}
+#skill #skillWrap .skills .web .skill_chips li.chip:nth-child(1) {background: #F6E9DD;}
+#skill #skillWrap .skills .web .skill_chips li.chip:nth-child(2) {background: #DDEBF6;}
+#skill #skillWrap .skills .web .skill_chips li.chip:nth-child(3) {background: #DDDEF6;}
+#skill #skillWrap .skills .web .skill_chips li.chip:nth-child(4) {background: #F6E9DD;}
+#skill #skillWrap .skills .web .skill_chips li.chip:nth-child(5) {background: #E3F6DD;}
+#skill #skillWrap .skills .design .skill_chips li.chip:nth-child(1) {background: #EFDDF6;}
+#skill #skillWrap .skills .design .skill_chips li.chip:nth-child(2) {background: #DDEBF6;}
+#skill #skillWrap .skills .design .skill_chips li.chip:nth-child(3) {background: #F6E9DD;}
+#skill #skillWrap .skills .tool .skill_chips li.chip:nth-child(1) {background: #DDEBF6;}
+#skill #skillWrap .skills .tool .skill_chips li.chip:nth-child(2) {background: #E3F6DD;}
+#skill #skillWrap .skills .version .skill_chips li.chip:nth-child(1) {background: #F2F2F2;}
+#skill #skillWrap .skills .version .skill_chips li.chip:nth-child(2) {background: #F6E9DD;}
+#skill #skillWrap .skills .mobile_app .skill_chips li.chip:nth-child(1) {background: #DDEBF6;}
+#skill #skillWrap .skills .mobile_app .skill_chips li.chip:nth-child(2) {background: #E3F6DD;}
 
