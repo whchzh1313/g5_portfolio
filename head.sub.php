@@ -107,6 +107,10 @@ if(G5_IS_MOBILE) {
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
+<script src="<?php echo G5_JS_URL ?>/slick.min.js"></script>
+<link rel="stylesheet" href="<?php echo G5_JS_URL ?>/slick.css">
+<script src="<?php echo G5_JS_URL ?>/aos.js"></script>
+<link rel="stylesheet" href="<?php echo G5_JS_URL ?>/aos.css">
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php
