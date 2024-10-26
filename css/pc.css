@@ -70,7 +70,7 @@
 #skill #skillWrap .skills.mobile_app .skill_chips li.chip:nth-child(1) {background: #DDEBF6;}
 #skill #skillWrap .skills.mobile_app .skill_chips li.chip:nth-child(2) {background: #E3F6DD;}
 
-.project_detail {width: 640px;height: 400px;position: relative;}
-.project_detail .detail_slk {}
+.project_detail {position: relative;}
+.project_detail .detail_slk {width: 640px;height: 400px;}
 .project_detail .detail_slk .project_capture {background: #222222;}
 .project_detail .detail_slk .project_capture img {object-fit: contain;}
