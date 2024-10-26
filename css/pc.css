@@ -27,10 +27,10 @@
 
 #aboutMe {}
 #aboutMe h2 {}
-#aboutMe .profile_wrap {margin-bottom: 64px;}
+#aboutMe .profile_wrap {margin-bottom: 64px;align-items: flex-start;}
 #aboutMe .profile_wrap .flex_l {}
 #aboutMe .profile_wrap .flex_l #ProfileImageContainer {}
-#aboutMe .profile_wrap .flex_r {margin-left: 40px;padding-left: 20px;border-left: 1px solid #222;}
+#aboutMe .profile_wrap .flex_r {margin-left: 120px;padding-left: 40px;border-left: 1px solid #222;}
 #aboutMe .profile_wrap .flex_r .flex_box {}
 #aboutMe .profile_wrap .flex_r .flex_box h3 {font-size: 1.5rem;}
 #aboutMe .profile_wrap .flex_r .flex_box p {font-size: 1rem;font-weight: 500;align-content: end;margin-left: 8px;}
