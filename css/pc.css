@@ -17,7 +17,7 @@
 #titleSection.center_y_title {display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-orient: vertical;-moz-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-moz-box-justify-content: center;-ms-flex-pack: center;justify-content: center;}
 #titleSection .wave_text {position: relative;}
 #titleSection .wave_text .words {font-size: 6rem;color: #e9ebf7;-webkit-text-stroke: 2px #222;font-weight: 900;position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);text-transform: uppercase;line-height: 1em;}
-#titleSection .wave_text .words::after {content: "";display: block;position: absolute;right: -60px;width: 40px;height: 16px;animation: opacityChanger 5s ease infinite;bottom: 0;border: 2px solid #222}
+#titleSection .wave_text .words::after {content: "";display: block;position: absolute;right: -100px;width: 60px;height: 16px;animation: opacityChanger 5s ease infinite;bottom: 0;border: 2px solid #222}
 #titleSection .wave_text .words:nth-child(1) {color: transparent;-webkit-text-stroke: 2px #222222;}
 #titleSection .wave_text .words:nth-child(2) {color: #6070dd;animation: wave 5s ease infinite;}
 /* @keyframes wave {
