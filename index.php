@@ -92,91 +92,91 @@ include_once(G5_PATH.'/head.php');
                 <div class="project_slk">
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/kcell_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/kcell_2.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/kcell_3.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/kcell_4.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/kcell_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/kcell_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/kcell_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/kcell_4.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/mycell_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/mycell_2.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/mycell_3.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/mycell_4.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/mycell_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/mycell_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/mycell_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/mycell_4.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/angelot_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/angelot_2.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/angelot_3.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/angelot_4.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/angelot_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/angelot_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/angelot_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/angelot_4.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/enf_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/enf_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/enf_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/enf_2.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/dobongye_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/dobongye_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/dobongye_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/dobongye_2.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/cowell_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/cowell_1.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/eun_u_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/eun_u_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/eun_u_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/eun_u_2.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/iconiq_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/iconiq_1.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/m01_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/m01_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/m01_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/m01_2.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                     <div class="project_detail">
                         <div class="detail_slk">
-                            <div class="project_capture"><img src="/projects/rejuent_1.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/rejuent_2.png" alt=""></div>
-                            <div class="project_capture"><img src="/projects/rejuent_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/rejuent_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/rejuent_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/images/projects/rejuent_3.png" alt=""></div>
                         </div>
                         <div class="detail_desc"></div>
                     </div>
                 </div>
                 <div class="project_slk_nav">
-                    <div class="project_logo"><img src="/projects/project_kcell.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_mycell.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_angelot.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_enf.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_dobongye.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_cowell.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_eun_u.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_iconiq.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_m01.png" alt=""></div>
-                    <div class="project_logo"><img src="/projects/project_rejuent.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_kcell.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_mycell.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_angelot.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_enf.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_dobongye.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_cowell.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_eun_u.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_iconiq.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_m01.png" alt=""></div>
+                    <div class="project_logo"><img src="/images/projects/project_rejuent.png" alt=""></div>
                 </div>
                 <div class="project_slk_arrow" value="slickNext">
                     <img src="/images/arr_next.png" alt="">
