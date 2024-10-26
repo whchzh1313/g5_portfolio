@@ -182,6 +182,18 @@ include_once(G5_PATH.'/head.php');
                     <img src="/images/arr_next.png" alt="">
                 </div>
                 <script>
+			        $('.project_detail.slick-current .detail_slk').slick({
+				        slidesToShow: 1,
+				        slidesToScroll: 1,
+				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
+				        infinite: true,
+				        dots: true,
+				        arrows: true,
+				        speed: 600,
+				        autoplay: true,
+				        autoplaySpeed: 4000,
+				        focusOnSelect: true,
+			        });
 			        $('#project_slk').slick({
 				        fade: true,
 				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
@@ -209,18 +221,6 @@ include_once(G5_PATH.'/head.php');
 			        });
 			        $('#project_slk_arrow').click(function(){
 				        $('.project_detail.slick-current .detail_slk').slick($(this).val());
-			        });
-			        $('.project_detail.slick-current .detail_slk').slick({
-				        slidesToShow: 1,
-				        slidesToScroll: 1,
-				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
-				        infinite: true,
-				        dots: true,
-				        arrows: true,
-				        speed: 600,
-				        autoplay: true,
-				        autoplaySpeed: 4000,
-				        focusOnSelect: true,
 			        });
                     $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
                         ('.project_detail.slick-current .detail_slk').slick('unslick').slick();
