@@ -18,7 +18,7 @@ include_once(G5_PATH.'/head.php');
 ?>
     <div id="main">
         <div id="titleSection" class="blue_gradiant_bg center_y_title">
-            <div class="section wave_text" data-aos="fade-up">
+            <div class="section wave_text" data-aos="fade">
                 <p class="words wave" aria-hidden="true">이화민<br />웹 개발자 포트폴리오</p>
                 <p class="words">이화민<br />웹 개발자 포트폴리오</p>
             </div>
@@ -89,9 +89,129 @@ include_once(G5_PATH.'/head.php');
         <div id="project" class="blue_bg">
             <div class="section">
                 <h2 class="title_circle white_circle"><span data-aos="fade-up">Project</span></h2>
+                <div class="project_slk">
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/kcell_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/kcell_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/kcell_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/kcell_4.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/mycell_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/mycell_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/mycell_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/mycell_4.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/angelot_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/angelot_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/angelot_3.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/angelot_4.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/enf_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/enf_2.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/dobongye_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/dobongye_2.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/cowell_1.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/eun_u_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/eun_u_2.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/iconiq_1.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/m01_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/m01_2.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                    <div class="project_detail">
+                        <div class="detail_slk">
+                            <div class="project_capture"><img src="/projects/rejuent_1.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/rejuent_2.png" alt=""></div>
+                            <div class="project_capture"><img src="/projects/rejuent_3.png" alt=""></div>
+                        </div>
+                        <div class="detail_desc"></div>
+                    </div>
+                </div>
+                <div class="project_slk_nav">
+                    <div class="project_logo"><img src="/projects/project_kcell.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_mycell.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_angelot.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_enf.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_dobongye.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_cowell.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_eun_u.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_iconiq.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_m01.png" alt=""></div>
+                    <div class="project_logo"><img src="/projects/project_rejuent.png" alt=""></div>
+                </div>
+                <div class="project_slk_arrow" value="slickNext">
+                    <img src="/images/arr_next.png" alt="">
+                </div>
+                <script>
+			        $('.project_slk').slick({
+				        fade: true,
+				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
+				        infinite: true,
+				        dots: true,
+				        arrows: false,
+				        speed: 1200,
+				        autoplay: true,
+				        autoplaySpeed: 4000,
+				        asNavFor: '.roll .nav'
+			        });
+			        $('.project_slk_nav').slick({
+				        slidesToShow: 4,
+				        slidesToScroll: 1,
+				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
+				        infinite: true,
+				        dots: false,
+				        arrows: false,
+				        speed: 1200,
+				        autoplay: true,
+				        autoplaySpeed: 4000,
+				        focusOnSelect: true,
+				        asNavFor: '.roll .view'
+			        });
+			        $('.roll .arr button').click(function(){
+				        $('.roll .view').slick($(this).val());
+			        })
+		        </script>
             </div>
         </div>
     </div>
-
 <?php
 include_once(G5_PATH.'/tail.php');
