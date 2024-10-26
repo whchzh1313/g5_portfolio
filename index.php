@@ -220,9 +220,18 @@ include_once(G5_PATH.'/head.php');
 				            dots: true,
 				            arrows: true,
 				            speed: 400,
-				            autoplay: true,
-				            autoplaySpeed: 4000,
-				            focusOnSelect: true,});
+                            autoplay: false});
+                    });
+                    $('.detail_slk').each(function() {
+                        $(this).slick({
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: true,
+                            arrows: true,
+                            speed: 400,
+                            autoplay: false
+                        });
                     });
 		        </script>
             </div>
