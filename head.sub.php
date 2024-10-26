@@ -104,6 +104,7 @@ add_javascript('<script src="'.G5_JS_URL.'/slick.min.js"></script>', 1);
 add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/slick.css">', 1);
 add_javascript('<script src="'.G5_JS_URL.'/aos.js"></script>', 1);
 add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/aos.css">', 1);
+add_javascript('<script src="'.G5_JS_URL.'/main.js"></script>', 1);
 
 if(G5_IS_MOBILE) {
     add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
