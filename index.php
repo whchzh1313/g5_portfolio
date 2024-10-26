@@ -203,6 +203,7 @@ include_once(G5_PATH.'/head.php');
 				        arrows: false,
 				        speed: 400,
 				        autoplay: true,
+                        swipeToSlide: false,
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
 				        asNavFor: '#project_slk'
