@@ -188,7 +188,7 @@ include_once(G5_PATH.'/head.php');
 				        infinite: true,
 				        dots: false,
 				        arrows: false,
-				        speed: 600,
+				        speed: 400,
 				        autoplay: true,
                         swipeToSlide: false,
 				        autoplaySpeed: 4000,
@@ -201,7 +201,7 @@ include_once(G5_PATH.'/head.php');
 				        infinite: true,
 				        dots: false,
 				        arrows: false,
-				        speed: 600,
+				        speed: 400,
 				        autoplay: true,
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
@@ -211,7 +211,7 @@ include_once(G5_PATH.'/head.php');
 				        $('.project_detail.slick-current .detail_slk').slick($(this).val());
 			        });
                     $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
-                        ('.project_detail .detail_slk').slick('unslick');
+                        $('.project_detail.slick-current .detail_slk').slick('unslick');
                         ('.project_detail.slick-current .detail_slk').slick({
 				            slidesToShow: 1,
 				            slidesToScroll: 1,
@@ -219,7 +219,7 @@ include_once(G5_PATH.'/head.php');
 				            infinite: true,
 				            dots: true,
 				            arrows: true,
-				            speed: 600,
+				            speed: 400,
 				            autoplay: true,
 				            autoplaySpeed: 4000,
 				            focusOnSelect: true,});
