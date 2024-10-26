@@ -45,40 +45,40 @@ include_once(G5_PATH.'/head.php');
                     <div class="skills">
                         <h4>Web</h4>
                         <ul class="flex_box skill_chips">
-                            <li class="chip">HTML</li>
-                            <li class="chip">CSS</li>
-                            <li class="chip">Jquery</li>
-                            <li class="chip">Mysql</li>
-                            <li class="chip">Gnuboard</li>
+                            <li class="chip radius_100">HTML</li>
+                            <li class="chip radius_100">CSS</li>
+                            <li class="chip radius_100">Jquery</li>
+                            <li class="chip radius_100">Mysql</li>
+                            <li class="chip radius_100">Gnuboard</li>
                         </ul>
                     </div>
                     <div class="skills">
                         <h4>Design & Prototyping</h4>
                         <ul class="flex_box skill_chips">
-                            <li class="chip">Figma</li>
-                            <li class="chip">Photoshop</li>
-                            <li class="chip">Illustrator</li>
+                            <li class="chip radius_100">Figma</li>
+                            <li class="chip radius_100">Photoshop</li>
+                            <li class="chip radius_100">Illustrator</li>
                         </ul>
                     </div>
                     <div class="skills">
                         <h4>Tool</h4>
                         <ul class="flex_box skill_chips">
-                            <li class="chip">VSCode</li>
-                            <li class="chip">Android Studio</li>
+                            <li class="chip radius_100">VSCode</li>
+                            <li class="chip radius_100">Android Studio</li>
                         </ul>
                     </div>
                     <div class="skills">
                         <h4>Version Control & Collaboration</h4>
                         <ul class="flex_box skill_chips">
-                            <li class="chip">Notion</li>
-                            <li class="chip">Slack</li>
+                            <li class="chip radius_100">Notion</li>
+                            <li class="chip radius_100">Slack</li>
                         </ul>
                     </div>
                     <div class="skills">
                         <h4>MobileApp</h4>
                         <ul class="flex_box skill_chips">
-                            <li class="chip">Kotlin</li>
-                            <li class="chip">Android Studio</li>
+                            <li class="chip radius_100">Kotlin</li>
+                            <li class="chip radius_100">Android Studio</li>
                         </ul>
                     </div>
                 </div>

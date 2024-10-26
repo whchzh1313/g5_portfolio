@@ -23,7 +23,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 ?>
 <div id="pc">
     <div id="header">
-        <div class="header_wrap">
+        <div class="header_wrap flex_box flex_between flex_end">
             <h1 id="logo">HM.</h1>
             <nav>
                 <ul class="flex_box">
