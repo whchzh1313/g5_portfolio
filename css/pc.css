@@ -13,13 +13,13 @@
 .section {padding: 64px 0;width: 1280px;margin: 0 auto;}
 .blue_bg {background: #e9ebf7;}
 
-#titleSection p {font-size: 6rem;color: transparent;text-shadow: 0px 0px 2px #222222;}
+#titleSection p {font-size: 6rem;color: transparent;text-shadow: 0px 0px #222222;}
 
 #skill {}
-#skill h3 {font-size: 2rem;font-weight: 700;}
+#skill h3 {font-size: 2rem;font-weight: 700;line-height: 1em;margin-bottom: 32px;}
 #skill #skillWrap {}
-#skill #skillWrap .skills {}
-#skill #skillWrap .skills h4 {font-size: 1.25rem;}
+#skill #skillWrap .skills:not(:last-child) {margin-right: 80px;}
+#skill #skillWrap .skills h4 {font-size: 1.25rem;line-height: 1em;margin-bottom: 12px;}
 #skill #skillWrap .skills .skill_chips {}
-#skill #skillWrap .skills .skill_chips li.chip {background: #e9ebf7;font-size: 1rem;line-height: 40px;}
+#skill #skillWrap .skills .skill_chips li.chip {background: #e9ebf7;font-size: 1rem;line-height: 40px;padding: 0 16px;margin-right: 16px;}
 
