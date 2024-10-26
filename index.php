@@ -18,6 +18,9 @@ include_once(G5_PATH.'/head.php');
 ?>
 
     <div id="main">
+        <div id="titleSection" class="section blue_gradiant_bg">
+            <p>이화민<br />웹 개발자 포트폴리오 _</p>
+        </div>
         <div id="aboutMe" class="section blue_bg">
             <h2 class="title_circle blue_circle">About me</h2>
             <div class="flex_box">

@@ -24,9 +24,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 <div id="pc">
     <div id="header">
         <div class="header_wrap">
-            <h1 id="logo">
-                <a href="javascript:;"><img src="/imgs/logo.png" alt="HM."></a>
-            </h1>
+            <h1 id="logo">HM.</h1>
             <nav>
                 <ul class="flex_box">
                     <li><a href="#aboutMe">About Me</a></li>

@@ -456,9 +456,10 @@ box-sizing:content-box;
 
 /* flex_box */
 .flex_box {display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;}
-.flex_wrap {flex-wrap: wrap;}
-.flex_align_center {align-items: center;}
-.flex_align_end {align-items: end;}
+.flex_between {-webkit-box-pack: justify;-moz-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.flex_wrap {-webkit-box-lines: multiple;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+.flex_align_center {-webkit-box-align: center;-moz-align-items: center;-ms-flex-align: center;align-items: center;}
+.flex_align_end {-webkit-box-align: end;-moz-align-items: end;-ms-flex-align: end;align-items: end;}
 
 /* title_circle */
 .title_circle {position: relative;}
