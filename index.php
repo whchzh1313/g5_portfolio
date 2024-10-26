@@ -211,7 +211,6 @@ include_once(G5_PATH.'/head.php');
 				        $('.project_detail.slick-current .detail_slk').slick($(this).val());
 			        });
                     $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
-                        console.log("제발찍혀주세요!!!!!!!!")
                         ('.project_detail .detail_slk').slick('unslick');
                         ('.project_detail.slick-current .detail_slk').slick();
                     });
