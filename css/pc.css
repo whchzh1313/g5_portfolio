@@ -10,7 +10,7 @@
 #header .header_wrap .nav ul li {font-size: 1.5rem;}
 
 /* section */
-.section {padding: 64px 0;width: 1280px;margin: 0 auto;}
+.section {padding: 64px 0;width: 1280px;margin: 0 auto;background: #ffffff;}
 .blue_bg {background: #e9ebf7;}
 .blue_gradiant_bg {background: linear-gradient(40deg, rgba(232,235,246,1) 0%, rgba(245,246,251,1) 100%);}
 #titleSection {height: 800px;}
@@ -25,14 +25,14 @@
     100% {clip-path: polygon(0% 38%, 10% 40%, 21% 40%, 30% 45%, 38% 51%, 45% 55%, 54% 57%, 60% 55%, 75% 57%, 85% 55%, 100% 52%, 100% 100%, 0% 100%);}
 }
 
-#aboutMe {background: #ffffff;}
+#aboutMe {}
 #aboutMe h2 {}
-#aboutMe .profile_wrap {margin-bottom: 64px;}
+#aboutMe .profile_wrap {margin-bottom: 64px;margin-left: 40px;padding-left: 20px;border-left: 1px solid #222;}
 #aboutMe .profile_wrap .flex_l {}
 #aboutMe .profile_wrap .flex_l #ProfileImageContainer {}
-#aboutMe .profile_wrap .flex_r .flex_box {margin-left: 40px;padding-left: 20px;border-left: 1px solid #222;}
+#aboutMe .profile_wrap .flex_r .flex_box {}
 #aboutMe .profile_wrap .flex_r .flex_box h3 {font-size: 1.5rem;}
-#aboutMe .profile_wrap .flex_r .flex_box p {font-size: 1rem;font-weight: 500;}
+#aboutMe .profile_wrap .flex_r .flex_box p {font-size: 1rem;font-weight: 500;align-content: end;}
 #aboutMe .profile_wrap .flex_r > p  {font-size: 1.5rem;}
 #aboutMe .profile_wrap .flex_r > p.font_gray {color: #999999;margin-bottom: 20px;}
 
