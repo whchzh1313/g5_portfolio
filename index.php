@@ -24,7 +24,7 @@ include_once(G5_PATH.'/head.php');
             </div>
         </div>
         <div id="aboutMe" class="section">
-            <h2 class="title_circle blue_circle">About me</h2>
+            <h2 class="title_circle blue_circle"><span>About me</span></h2>
             <div class="flex_box profile_wrap">
                 <div class="flex_l">
                     <div id="ProfileImageContainer">
@@ -88,7 +88,7 @@ include_once(G5_PATH.'/head.php');
         </div>
         <div id="project" class="blue_bg">
             <div class="section">
-                <h2 class="title_circle white_circle">Project</h2>
+                <h2 class="title_circle white_circle"><span>Project</span></h2>
             </div>
         </div>
     </div>
