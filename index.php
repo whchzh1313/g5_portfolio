@@ -191,7 +191,7 @@ include_once(G5_PATH.'/head.php');
 				        speed: 1200,
 				        autoplay: true,
 				        autoplaySpeed: 4000,
-				        asNavFor: '.roll .nav'
+				        asNavFor: '.project_slk_nav'
 			        });
 			        $('.project_slk_nav').slick({
 				        slidesToShow: 4,
@@ -204,10 +204,10 @@ include_once(G5_PATH.'/head.php');
 				        autoplay: true,
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
-				        asNavFor: '.roll .view'
+				        asNavFor: '.project_slk'
 			        });
-			        $('.roll .arr button').click(function(){
-				        $('.roll .view').slick($(this).val());
+			        $('.project_slk_arrow').click(function(){
+				        $('.project_slk').slick($(this).val());
 			        })
 		        </script>
             </div>
