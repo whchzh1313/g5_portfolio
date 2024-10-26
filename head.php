@@ -21,9 +21,19 @@ include_once(G5_LIB_PATH.'/visit.lib.php');
 include_once(G5_LIB_PATH.'/connect.lib.php');
 include_once(G5_LIB_PATH.'/popular.lib.php');
 ?>
-
-<div id="header">
-    <h1 id="logo">
-        <a href="javascript:;"><img src="/imgs/logo.png" alt="HM."></a>
-    </h1>
-</div>
+<div id="pc">
+    <div id="header">
+        <div class="header_wrap">
+            <h1 id="logo">
+                <a href="javascript:;"><img src="/imgs/logo.png" alt="HM."></a>
+            </h1>
+            <nav>
+                <ul class="flex_box">
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#skill">Skill</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>

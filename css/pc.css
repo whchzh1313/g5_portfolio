@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* pc_header */
+#header {display: flex;background: #ffffff;}
+#header.scrollTop {background: transparent;}
+#header .header_wrap {width: 1280px;margin: 0 auto;}
+#header .header_wrap .logo {}
+#header .header_wrap .nav {}
+#header .header_wrap .nav ul {}
+#header .header_wrap .nav ul li {}
+
+/* section */
+
+.section {padding: 64px 0;}
+.blue_bg {background: #e9ebf7;}
+
+#skill {}
+#skill #skillWrap {}
+#skill #skillWrap .skills {}
+#skill #skillWrap .skills h4 {}
+#skill #skillWrap .skills .skill_chips {}
+#skill #skillWrap .skills .skill_chips .chip {}

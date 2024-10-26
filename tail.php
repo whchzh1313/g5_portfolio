@@ -11,10 +11,17 @@ if (G5_IS_MOBILE) {
     return;
 }
 ?>
-
-<div id="footer">
-    <p>© 2024. Lee Hwa Min. All rights reserved.</p>
-</div>
-
+    <div id="float_btn">
+        상단으로
+    </div>
+    <div id="footer black_bg">
+        <h2 class="title_circle blue_circle">Contact</h2>
+        <div class="contact_box">
+            <p>Email : whchzh1313@gmail.com</p>
+            <p>Phone : 010-2055-4027</p>
+        </div>
+        <p>© 2024. Lee Hwa Min. All rights reserved.</p>
+    </div>
+</div> <!-- #pc end -->
 <?php
 include_once(G5_PATH."/tail.sub.php");
