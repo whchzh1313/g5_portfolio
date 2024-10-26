@@ -89,7 +89,7 @@ include_once(G5_PATH.'/head.php');
         <div id="project" class="blue_bg">
             <div class="section">
                 <h2 class="title_circle white_circle"><span data-aos="fade-up">Project</span></h2>
-                <div class="project_slk">
+                <div id="project_slk">
                     <div class="project_detail">
                         <div class="detail_slk">
                             <div class="project_capture"><img src="/images/projects/kcell_1.png" alt=""></div>
@@ -166,7 +166,7 @@ include_once(G5_PATH.'/head.php');
                         <div class="detail_desc"></div>
                     </div>
                 </div>
-                <div class="project_slk_nav">
+                <div id="project_slk_nav">
                     <div class="project_logo"><img src="/images/projects/project_kcell.png" alt=""></div>
                     <div class="project_logo"><img src="/images/projects/project_mycell.png" alt=""></div>
                     <div class="project_logo"><img src="/images/projects/project_angelot.png" alt=""></div>
@@ -178,11 +178,11 @@ include_once(G5_PATH.'/head.php');
                     <div class="project_logo"><img src="/images/projects/project_m01.png" alt=""></div>
                     <div class="project_logo"><img src="/images/projects/project_rejuent.png" alt=""></div>
                 </div>
-                <div class="project_slk_arrow" value="slickNext">
+                <div class="#project_slk_arrow" value="slickNext">
                     <img src="/images/arr_next.png" alt="">
                 </div>
                 <script>
-			        $('.project_slk').slick({
+			        $('#project_slk').slick({
 				        fade: true,
 				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
 				        infinite: true,
@@ -192,12 +192,9 @@ include_once(G5_PATH.'/head.php');
 				        autoplay: true,
                         swipeToSlide: false,
 				        autoplaySpeed: 4000,
-				        asNavFor: '.project_slk_nav',
-                        afterChange: () => {
-                            ('.project_detail.slick-current .detail_slk').slick('unslick').slick();
-		                },
+				        asNavFor: '#project_slk_nav',
 			        });
-			        $('.project_slk_nav').slick({
+			        $('#project_slk_nav').slick({
 				        slidesToShow: 4,
 				        slidesToScroll: 1,
 				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
@@ -208,9 +205,9 @@ include_once(G5_PATH.'/head.php');
 				        autoplay: true,
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
-				        asNavFor: '.project_slk'
+				        asNavFor: '#project_slk'
 			        });
-			        $('.project_slk_arrow').click(function(){
+			        $('#project_slk_arrow').click(function(){
 				        $('.project_detail.slick-current .detail_slk').slick($(this).val());
 			        });
 			        $('.project_detail.slick-current .detail_slk').slick({
@@ -225,6 +222,9 @@ include_once(G5_PATH.'/head.php');
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
 			        });
+                    $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
+                        ('.project_detail.slick-current .detail_slk').slick('unslick').slick();
+                    });
 		        </script>
             </div>
         </div>
