@@ -10,7 +10,7 @@
 #header .header_wrap nav ul li a {font-size: 1.5rem;padding: 0 8px;margin: 0 8px;align-content: center;}
 
 /* section */
-.section {padding: 64px 0;width: 1280px;margin: 0 auto;background: #ffffff;}
+.section {padding: 64px 0;width: 1280px;margin: 0 auto;}
 .blue_bg {background: #e9ebf7;}
 .blue_gradiant_bg {background: linear-gradient(40deg, rgba(232,235,246,1) 0%, rgba(245,246,251,1) 100%);}
 #titleSection {height: 800px;}
