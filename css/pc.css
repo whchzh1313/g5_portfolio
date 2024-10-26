@@ -19,10 +19,15 @@
 #titleSection .wave_text .words {font-size: 6rem;color: #e9ebf7;-webkit-text-stroke: 2px #222;font-weight: 900;position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);text-transform: uppercase;}
 #titleSection .wave_text .words:nth-child(1) {color: transparent;-webkit-text-stroke: 2px #6070DD;}
 #titleSection .wave_text .words:nth-child(2) {color: #6070DD;animation: wave 2s ease-in-out infinite;}
-@keyframes wave {
+/* @keyframes wave {
     0% {clip-path: polygon(0% 38%, 21% 40%, 38% 51%, 54% 57%, 75% 57%, 100% 52%, 100% 100%, 0% 100%);}
     50% {clip-path: polygon(0 49%, 16% 56%, 33% 55%, 55% 50%, 75% 42%, 100% 40%, 100% 100%, 0% 100%);}
     100% {clip-path: polygon(0% 38%, 21% 40%, 38% 51%, 54% 57%, 75% 57%, 100% 52%, 100% 100%, 0% 100%);}
+} */
+@keyframes wave {
+    0% { clip-path: polygon(0% 50%, 20% 45%, 40% 55%, 60% 50%, 80% 55%, 100% 50%, 100% 100%, 0% 100%); }
+    50% { clip-path: polygon(0% 55%, 20% 50%, 40% 60%, 60% 55%, 80% 60%, 100% 55%, 100% 100%, 0% 100%); }
+    100% { clip-path: polygon(0% 50%, 20% 45%, 40% 55%, 60% 50%, 80% 55%, 100% 50%, 100% 100%, 0% 100%); }
 }
 
 #skill {}
