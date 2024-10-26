@@ -25,10 +25,10 @@ include_once(G5_PATH.'/head.php');
         </div>
         <div id="aboutMe" class="section">
             <h2 class="title_circle blue_circle">About me</h2>
-            <div class="flex_box">
+            <div class="flex_box profile_wrap">
                 <div class="flex_l">
                     <div id="ProfileImageContainer">
-                        <img src="" alt="">
+                        <img src="/images/profile_image.png" alt="이화민">
                     </div>
                 </div>
                 <div class="flex_r">
