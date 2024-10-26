@@ -212,7 +212,17 @@ include_once(G5_PATH.'/head.php');
 			        });
                     $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
                         ('.project_detail .detail_slk').slick('unslick');
-                        ('.project_detail.slick-current .detail_slk').slick();
+                        ('.project_detail.slick-current .detail_slk').slick({
+				            slidesToShow: 1,
+				            slidesToScroll: 1,
+				            cssEase: 'cubic-bezier(0.7,0,0.2,1)',
+				            infinite: true,
+				            dots: true,
+				            arrows: true,
+				            speed: 600,
+				            autoplay: true,
+				            autoplaySpeed: 4000,
+				            focusOnSelect: true,});
                     });
 		        </script>
             </div>
