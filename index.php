@@ -190,8 +190,12 @@ include_once(G5_PATH.'/head.php');
 				        arrows: false,
 				        speed: 600,
 				        autoplay: true,
+                        swipeToSlide: false,
 				        autoplaySpeed: 4000,
-				        asNavFor: '.project_slk_nav'
+				        asNavFor: '.project_slk_nav',
+                        afterChange: () => {
+                            ('.project_detail.slick-current .detail_slk').slick('unslick').slick();
+		                },
 			        });
 			        $('.project_slk_nav').slick({
 				        slidesToShow: 4,
@@ -207,9 +211,9 @@ include_once(G5_PATH.'/head.php');
 				        asNavFor: '.project_slk'
 			        });
 			        $('.project_slk_arrow').click(function(){
-				        $('.project_detail.slick-current').slick($(this).val());
+				        $('.project_detail.slick-current .detail_slk').slick($(this).val());
 			        });
-			        $('.project_detail.slick-current').slick({
+			        $('.project_detail.slick-current .detail_slk').slick({
 				        slidesToShow: 1,
 				        slidesToScroll: 1,
 				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
