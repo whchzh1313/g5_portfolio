@@ -19,8 +19,8 @@ include_once(G5_PATH.'/head.php');
     <div id="main">
         <div id="titleSection" class="blue_gradiant_bg center_y_title">
             <div class="section wave_text">
-                <p class="words wave" aria-hidden="true">이화민<br />웹 개발자 포트폴리오 _</p>
-                <p class="words">이화민<br />웹 개발자 포트폴리오 _</p>
+                <p class="words wave" aria-hidden="true">이화민<br />웹 개발자 포트폴리오</p>
+                <p class="words">이화민<br />웹 개발자 포트폴리오</p>
             </div>
         </div>
         <div id="aboutMe" class="section">
