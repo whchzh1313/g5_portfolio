@@ -17,8 +17,10 @@ if (G5_IS_MOBILE) {
 include_once(G5_PATH.'/head.php');
 ?>
     <div id="main">
-        <div id="titleSection" class="section blue_gradiant_bg">
-            <p>이화민<br />웹 개발자 포트폴리오 _</p>
+        <div id="titleSection" class="blue_gradiant_bg">
+            <div class="section">
+                <p>이화민<br />웹 개발자 포트폴리오 _</p>
+            </div>
         </div>
         <div id="aboutMe" class="section">
             <h2 class="title_circle blue_circle">About me</h2>
@@ -83,8 +85,10 @@ include_once(G5_PATH.'/head.php');
                 </div>
             </div>
         </div>
-        <div id="project" class="section blue_bg">
-            <h2 class="title_circle white_circle">Project</h2>
+        <div id="project" class="blue_bg">
+            <div class="section">
+                <h2 class="title_circle white_circle">Project</h2>
+            </div>
         </div>
     </div>
 
