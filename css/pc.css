@@ -16,7 +16,7 @@
 #titleSection {height: 800px;}
 #titleSection.center_y_title {display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-orient: vertical;-moz-flex-direction: column;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-moz-box-justify-content: center;-ms-flex-pack: center;justify-content: center;}
 #titleSection .wave_text {position: relative;}
-#titleSection .wave_text .words {font-size: 6rem;color: #e9ebf7;-webkit-text-stroke: 2px #222;font-weight: 900;position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);text-transform: uppercase;}
+#titleSection .wave_text .words {font-size: 6rem;color: #e9ebf7;-webkit-text-stroke: 2px #222;font-weight: 900;position: absolute;top: 50%;transform: translateY(-50%);-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);text-transform: uppercase;line-height: 1em;}
 #titleSection .wave_text .words:nth-child(1) {color: transparent;-webkit-text-stroke: 2px #6070DD;}
 #titleSection .wave_text .words:nth-child(2) {color: #6070DD;animation: wave 2s ease-in-out infinite;}
 /* @keyframes wave {
