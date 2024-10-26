@@ -212,7 +212,7 @@ include_once(G5_PATH.'/head.php');
 			        });
                     $('#project_slk').on('afterChange', function(event, slick, currentSlide, nextSlide){
                         $('.project_detail.slick-current .detail_slk').slick('unslick');
-                        ('.project_detail.slick-current .detail_slk').slick({
+                        $('.project_detail.slick-current .detail_slk').slick({
 				            slidesToShow: 1,
 				            slidesToScroll: 1,
 				            cssEase: 'cubic-bezier(0.7,0,0.2,1)',
