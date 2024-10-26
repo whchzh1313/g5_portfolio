@@ -100,6 +100,10 @@ add_javascript('<script src="'.G5_JS_URL.'/common.js?ver='.G5_JS_VER.'"></script
 add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
 add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
+add_javascript('<script src="'.G5_JS_URL.'/slick.min.js"></script>', 0);
+add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/slick.css">', 0);
+add_javascript('<script src="'.G5_JS_URL.'/aos.js"></script>', 0);
+add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/aos.css">', 0);
 
 if(G5_IS_MOBILE) {
     add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
@@ -107,10 +111,10 @@ if(G5_IS_MOBILE) {
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
-<script src="<?php echo G5_JS_URL ?>/slick.min.js"></script>
-<link rel="stylesheet" href="<?php echo G5_JS_URL ?>/slick.css">
-<script src="<?php echo G5_JS_URL ?>/aos.js"></script>
-<link rel="stylesheet" href="<?php echo G5_JS_URL ?>/aos.css">
+
+
+
+
 </head>
 <body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
 <?php
