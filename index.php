@@ -186,9 +186,9 @@ include_once(G5_PATH.'/head.php');
 				        fade: true,
 				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
 				        infinite: true,
-				        dots: true,
+				        dots: false,
 				        arrows: false,
-				        speed: 1200,
+				        speed: 600,
 				        autoplay: true,
 				        autoplaySpeed: 4000,
 				        asNavFor: '.project_slk_nav'
@@ -200,15 +200,27 @@ include_once(G5_PATH.'/head.php');
 				        infinite: true,
 				        dots: false,
 				        arrows: false,
-				        speed: 1200,
+				        speed: 600,
 				        autoplay: true,
 				        autoplaySpeed: 4000,
 				        focusOnSelect: true,
 				        asNavFor: '.project_slk'
 			        });
 			        $('.project_slk_arrow').click(function(){
-				        $('.project_slk').slick($(this).val());
-			        })
+				        $('.project_detail.slick-current').slick($(this).val());
+			        });
+			        $('.project_detail.slick-current').slick({
+				        slidesToShow: 1,
+				        slidesToScroll: 1,
+				        cssEase: 'cubic-bezier(0.7,0,0.2,1)',
+				        infinite: true,
+				        dots: true,
+				        arrows: true,
+				        speed: 600,
+				        autoplay: true,
+				        autoplaySpeed: 4000,
+				        focusOnSelect: true,
+			        });
 		        </script>
             </div>
         </div>
